@@ -114,3 +114,22 @@ My own direction may differ from yours. That’s okay.
 Let’s keep the Emotionics ecosystem diverse and creative.
 
 — Kouhei Takagi
+
+## Emotionics Links
+- [The Blue Planet System(BPS): Complete Index](https://www.creatingfavoriteopinions.com/2025/08/the-blue-planet-systembps-complete-index.html)
+
+### 🧪 Basics
+- [Emotionics: The Science of Emotional Algorithms](https://www.creatingfavoriteopinions.com/2025/07/emotionics-science-of-emotional.html)
+
+### 📊 Research
+- [The Emotional Periodic Table: Emotionics—Towards a New Science of Feeling](https://www.creatingfavoriteopinions.com/2025/07/the-emotional-periodic-table.html)
+- [Emotionics Formula: The Chemistry of Conditions and Spaces](https://www.creatingfavoriteopinions.com/2025/07/emotionics-formula-chemistry-of.html)
+- [Emotionics: Emotional Formulas Mini-Library](https://www.creatingfavoriteopinions.com/2025/08/emotionics-emotional-formulas-mini.html)
+- [The Emotional Periodic Table: Second Edition, Still in Progress](https://www.creatingfavoriteopinions.com/2025/08/the-emotional-periodic-table-second.html)
+- [🧬 Emotionics Resonance Levels: Understanding How We Empathize](https://www.creatingfavoriteopinions.com/2025/08/emotionics-resonance-levels.html)
+- [Emotionics Meets Behavioral Economics: Modeling Emotional Reactions Behind Financial Decisions](https://www.creatingfavoriteopinions.com/2025/08/emotionics-meets-behavioral-economics.html)
+- [Feel vs Feign: The Hidden Role of Interest in Emotional Authenticity](https://www.creatingfavoriteopinions.com/2025/08/feel-vs-feign-hidden-role-of-interest.html)
+- [Emotionics Periodic Table: Third Edition — Interest as the Origin](https://www.creatingfavoriteopinions.com/2025/08/emotionics-periodic-table-third-edition.html)
+- [Grey to Blue: Turning Despair into Hope in the Blue Planet System](https://www.creatingfavoriteopinions.com/2025/08/grey-to-blue-turning-despair-into-hope.html)
+- [SAYA Test and Emotionics Quantification](https://www.creatingfavoriteopinions.com/2025/08/saya-test-and-emotionics-quantification.html)
+
