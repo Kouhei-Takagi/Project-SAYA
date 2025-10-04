@@ -1,0 +1,87 @@
+{
+  "version": "Ten-0.1",
+  "source": "periodic-table.svg",
+  "elements": [
+    {
+      "name": "Pleasure",
+      "code": "P"
+    },
+    {
+      "name": "Surprised",
+      "code": "Su"
+    },
+    {
+      "name": "Discomfort",
+      "code": "Dc"
+    },
+    {
+      "name": "Joy",
+      "code": "J"
+    },
+    {
+      "name": "Relief",
+      "code": "R"
+    },
+    {
+      "name": "Curiosity",
+      "code": "Cu"
+    },
+    {
+      "name": "Confused",
+      "code": "Co"
+    },
+    {
+      "name": "Sadness",
+      "code": "S"
+    },
+    {
+      "name": "Anger",
+      "code": "A"
+    },
+    {
+      "name": "Grateful",
+      "code": "Gr"
+    },
+    {
+      "name": "Satisfied",
+      "code": "Sa"
+    },
+    {
+      "name": "Comfortable",
+      "code": "Cf"
+    },
+    {
+      "name": "Hope",
+      "code": "H"
+    },
+    {
+      "name": "Despair",
+      "code": "De"
+    },
+    {
+      "name": "Guilt",
+      "code": "Gu"
+    },
+    {
+      "name": "Shame",
+      "code": "Sh"
+    },
+    {
+      "name": "Fear",
+      "code": "F"
+    },
+    {
+      "name": "Love",
+      "code": "L"
+    },
+    {
+      "name": "Jealousy",
+      "code": "Je"
+    }
+  ],
+  "axes": [
+    "Valence",
+    "Arousal",
+    "Dominance"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "version": "VAD-0.1",
+  "description": "Rough VAD mapping for Emotionics elements (-1.0 to +1.0)",
+  "axes": [
+    "Valence",
+    "Arousal",
+    "Dominance"
+  ],
+  "elements": [
+    {
+      "name": "Joy",
+      "code": "J",
+      "V": 0.8,
+      "A": 0.4,
+      "D": 0.6
+    },
+    {
+      "name": "Relief",
+      "code": "R",
+      "V": 0.6,
+      "A": -0.2,
+      "D": 0.5
+    },
+    {
+      "name": "Grateful",
+      "code": "Gr",
+      "V": 0.7,
+      "A": -0.1,
+      "D": 0.3
+    },
+    {
+      "name": "Satisfied",
+      "code": "Sa",
+      "V": 0.6,
+      "A": -0.3,
+      "D": 0.4
+    },
+    {
+      "name": "Comfortable",
+      "code": "Cf",
+      "V": 0.5,
+      "A": -0.4,
+      "D": 0.4
+    },
+    {
+      "name": "Curiosity",
+      "code": "Cu",
+      "V": 0.5,
+      "A": 0.5,
+      "D": 0.5
+    },
+    {
+      "name": "Hope",
+      "code": "H",
+      "V": 0.7,
+      "A": 0.3,
+      "D": 0.6
+    },
+    {
+      "name": "Confused",
+      "code": "Co",
+      "V": -0.2,
+      "A": 0.3,
+      "D": -0.4
+    },
+    {
+      "name": "Despair",
+      "code": "De",
+      "V": -0.8,
+      "A": -0.4,
+      "D": -0.7
+    },
+    {
+      "name": "Jealousy",
+      "code": "Je",
+      "V": -0.6,
+      "A": 0.5,
+      "D": -0.5
+    },
+    {
+      "name": "Sadness",
+      "code": "S",
+      "V": -0.7,
+      "A": -0.5,
+      "D": -0.6
+    },
+    {
+      "name": "Guilt",
+      "code": "Gu",
+      "V": -0.7,
+      "A": -0.2,
+      "D": -0.7
+    },
+    {
+      "name": "Shame",
+      "code": "Sh",
+      "V": -0.8,
+      "A": 0.1,
+      "D": -0.9
+    },
+    {
+      "name": "Anger",
+      "code": "A",
+      "V": -0.7,
+      "A": 0.8,
+      "D": 0.2
+    },
+    {
+      "name": "Fear",
+      "code": "F",
+      "V": -0.8,
+      "A": 0.9,
+      "D": -0.8
+    }
+  ]
+}
