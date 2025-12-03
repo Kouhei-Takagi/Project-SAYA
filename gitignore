@@ -1,0 +1,44 @@
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyd
+*.pyp
+*.pyo
+*.egg-info/
+*.so
+
+# virtual environments
+venv/
+.env/
+.env*/
+.venv/
+.venv*/
+
+# cache
+.cache/
+.pytest_cache/
+
+# === macOS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# === VSCode ===
+.vscode/
+
+# === Logs ===
+*.log
+
+# === Emotionics-specific ===
+# （OpenAIキーなど秘密ファイルを入れる時の保険）
+*.secret
+*.key
+*.env.local
+*.env.development
+*.env.production
+
+# === Node (もし将来WEB UI作る場合) ===
+node_modules/
+dist/
