@@ -1,0 +1,98 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://example.com/schemas/emotionics.analyze.response.v1.json",
+    "title": "EmotionicsAnalyzeResponseV1",
+    "type": "object",
+    "required": [
+      "elements_version",
+      "expressed_distribution",
+      "feel_distribution",
+      "feign_distribution",
+      "mode_scores",
+      "meta"
+    ],
+    "properties": {
+      "elements_version": {
+        "type": "string",
+        "description": "Emotionics element table version actually used (echo).",
+        "examples": ["3.0"]
+      },
+      "expressed_distribution": {
+        "type": "object",
+        "description": "Observed surface emotion distribution (sum ~= 1.0).",
+        "additionalProperties": {
+          "type": "number",
+          "minimum": 0.0
+        },
+        "minProperties": 1
+      },
+      "feel_distribution": {
+        "type": "object",
+        "description": "Estimated inner (Feel) emotion distribution.",
+        "additionalProperties": {
+          "type": "number",
+          "minimum": 0.0
+        },
+        "minProperties": 0
+      },
+      "feign_distribution": {
+        "type": "object",
+        "description": "Estimated performative (Feign) emotion distribution.",
+        "additionalProperties": {
+          "type": "number",
+          "minimum": 0.0
+        },
+        "minProperties": 0
+      },
+      "mode_scores": {
+        "type": "object",
+        "description": "Overall mode scores between Feel and Feign.",
+        "required": ["feel", "feign"],
+        "properties": {
+          "feel": {
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0
+          },
+          "feign": {
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0
+          }
+        },
+        "additionalProperties": false
+      },
+      "meta": {
+        "type": "object",
+        "description": "Meta information about the analysis.",
+        "required": ["overall_confidence"],
+        "properties": {
+          "overall_confidence": {
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "description": "Global confidence score for this analysis."
+          },
+          "tokens": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Approximate token count used during feature extraction."
+          },
+          "language": {
+            "type": "string",
+            "description": "Detected or used language code."
+          },
+          "request_id": {
+            "type": "string",
+            "description": "Server-side unique identifier for this request."
+          }
+        },
+        "additionalProperties": true
+      },
+      "trace": {
+        "type": ["object", "null"],
+        "description": "Optional internal trace/debug info (visible only if options.return_trace=true)."
+      }
+    },
+    "additionalProperties": false
+  }

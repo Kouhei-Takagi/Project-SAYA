@@ -1,0 +1,45 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://example.com/schemas/emotionics.analyze.request.v1.json",
+    "title": "EmotionicsAnalyzeRequestV1",
+    "type": "object",
+    "required": ["text"],
+    "properties": {
+      "text": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Target text to analyze."
+      },
+      "language": {
+        "type": "string",
+        "description": "BCP-47 language code of the text (e.g. 'ja', 'en').",
+        "default": "auto"
+      },
+      "elements_version": {
+        "type": "string",
+        "description": "Emotionics element table version identifier.",
+        "default": "3.0",
+        "examples": ["3.0"]
+      },
+      "options": {
+        "type": "object",
+        "description": "Optional analysis parameters.",
+        "properties": {
+          "top_k": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 64,
+            "default": 5,
+            "description": "Max number of top elements to return in distributions."
+          },
+          "return_trace": {
+            "type": "boolean",
+            "default": false,
+            "description": "If true, return internal debug/trace info."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "additionalProperties": false
+  }
