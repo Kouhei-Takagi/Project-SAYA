@@ -11,3 +11,6 @@ The demo shows:
 
 Emotionics aims to provide a structured framework to analyze human emotions,
 emotional reactions, and hidden emotional layers through a computational model.
+
+## Emotionics Analyzer – Demo Video
+https://github.com/Kouhei-Takagi/Project-SAYA/blob/main/emotionics_api/sample.mp4
