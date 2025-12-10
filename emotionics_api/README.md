@@ -14,3 +14,12 @@ emotional reactions, and hidden emotional layers through a computational model.
 
 ## Emotionics Analyzer – Demo Video
 https://github.com/Kouhei-Takagi/Project-SAYA/blob/main/emotionics_api/sample.mp4
+
+
+## Contact (Project-SAYA)
+If you have questions, suggestions, or interest in Emotionics research:
+
+📩 **info@project-saya.com**
+
+Project-SAYA welcomes researchers, developers, and collaborators exploring
+Emotionics, computational emotion modeling, or related fields.
