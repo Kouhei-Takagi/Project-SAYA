@@ -1,16 +1,16 @@
 ## Emotionics Analyzer – Demonstration Video
 
-This video demonstrates the macOS Emotionics Analyzer, a tool that performs
-emotion extraction and Emotionics-based interpretation from free-text input.
+This video demonstrates the macOS Emotionics Analyzer, a research-oriented tool
+that performs Emotionics-based analysis on free-text input.
 
 The demo shows:
-- Real-time analysis using the EmotionicsAPI
-- Extraction of expressed, felt, and feigned emotional distributions
-- JSON-formatted results based on the Emotionics Periodic Table
-- A simple and reproducible workflow for researchers and developers
+- A real-time Emotionics-based analysis pipeline
+- Structured interpretation of emotional signals
+- JSON-formatted outputs for research use
+- A simple and reproducible workflow for developers
 
-Emotionics aims to provide a structured framework to analyze human emotions,
-emotional reactions, and hidden emotional layers through a computational model.
+Emotionics aims to provide a structured framework to analyze emotional states
+and reactions through a computational model.
 
 ## Emotionics Analyzer – Demo Video
 https://github.com/Kouhei-Takagi/Project-SAYA/blob/main/emotionics_api/sample.mp4
@@ -23,3 +23,8 @@ If you have questions, suggestions, or interest in Emotionics research:
 
 Project-SAYA welcomes researchers, developers, and collaborators exploring
 Emotionics, computational emotion modeling, or related fields.
+
+## Ethical Notice
+EmotionicsAPI is a research-oriented, professional tool.
+Its design assumes responsible use and includes internal ethical constraints.
+Detailed principles are intentionally not fully public at this stage.
